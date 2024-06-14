@@ -13,6 +13,11 @@ export default {
         },
         zinc: "#101010",
       },
+      fontFamily: {
+        sans: "var(--font-sora)",
+        code: "var(--font-code)",
+        grotesk: "var(--font-grotesk)",
+      },
     },
   },
   plugins: [],
