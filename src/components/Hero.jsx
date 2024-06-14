@@ -1,18 +1,13 @@
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
+
 import { batteryCameraVid } from '../utils';
 
 const Hero = () => {
 
-    useGSAP(() => {
-        gsap.to('#hero', { opacity: 1, delay: 2 })
-        gsap.to('#cta', { opacity: 1, y: -50, delay: 2 })
-      }, [])
       
   return (
-    <section className="w-full nav-height bg-black relative">
+    <section className="w-full nav-height bg-[#E9E9E9] relative">
       <div className="h-5/6 w-full flex-center flex-col">
-        <p id="hero" className="hero-title">iPhone 15 Pro</p>
+        <p id="hero" className="hero-title">Dango</p>
         <div className="md:w-10/12 w-9/12">
           <video className="pointer-events-none" autoPlay muted playsInline={true} key={batteryCameraVid}>
             <source src={batteryCameraVid} type="video/mp4" />

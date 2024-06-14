@@ -1,4 +1,4 @@
-import {navList} from '../constants'
+import { navList } from '../constants'
 
 const Navbar = () => {
   return (
