@@ -8,9 +8,9 @@ const Navbar = () => {
               <img src='/assets/images/logo_dark.svg' alt="logo" width={24} height={24}/>
             </a>
 
-            <div className='flex flex-1 gap-6 px-5 py-1 max-sm:hidden bg-white bg-opacity-45 backdrop-filter backdrop-blur-lg border border-gray border-opacity-25 rounded-md'>
+            <div className='flex flex-1 gap-6 px-5 py-1 max-sm:hidden bg-white bg-opacity-45 backdrop-filter backdrop-blur-lg border border-gray border-opacity-25 rounded-lg'>
               {navList.map((nav) => (
-                <a href='#' key={nav} lassName="px-5 text-sm cursor-pointer text-gray hover:text-white transition-all cursor-pointer">{nav}</a>
+                <div href='#' key={nav} lassName="px-5 text-sm cursor-pointer text-gray-100 transition-all hover:text-zinc transition-all">{nav}</div>
               ))}
             </div>
         </nav>
