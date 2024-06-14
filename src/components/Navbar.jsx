@@ -1,11 +1,12 @@
 import React from 'react'
+import { logoDark } from '../utils'
 
 const Navbar = () => {
   return (
     <header>
-        <div>
-            <div></div>
-        </div>
+        <nav>
+            <img src={logoDark} alt="logo" />
+        </nav>
     </header>
   )
 }

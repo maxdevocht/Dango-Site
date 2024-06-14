@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <main className='bg-[#EBEBEB]'>
+    <main className='bg-[#E9E9E9]'>
       <Navbar />
     </main>
   )
