@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="w-full py-5 sm:px-10 px-5 flex justify-center items-center">
         <nav className="flex max-sm:w-full">
-            <a href='#' className='mr-2 px-1 py-1 bg-white bg-opacity-45 backdrop-filter backdrop-blur-lg border border-gray border-opacity-25 rounded-md'>
+            <a href='#' className='mr-1 px-1 py-1 bg-white bg-opacity-45 backdrop-filter backdrop-blur-lg border border-gray border-opacity-25 rounded-full'>
               <img src='/assets/images/logo_dark.svg' alt="logo" width={24} height={24}/>
             </a>
 
